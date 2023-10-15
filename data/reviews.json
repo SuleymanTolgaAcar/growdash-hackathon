@@ -1,0 +1,342 @@
+[
+  {
+    "name": "Burger King",
+    "url": "burgerking",
+    "averageRatings": {
+      "deliverySpeed": 1,
+      "taste": 4,
+      "price": 1,
+      "ambience": 5,
+      "service": 5,
+      "user": 3
+    },
+    "reviews": [
+      {
+        "text": "I love this place! The food is great and the service is amazing!",
+        "deliverySpeed": 0,
+        "taste": 5,
+        "price": 0,
+        "ambience": 0,
+        "service": 5,
+        "user": 3
+      },
+      {
+        "text": "The bread was soft and the meat was juicy i liked it",
+        "deliverySpeed": 0,
+        "taste": 5,
+        "price": 0,
+        "ambience": 0,
+        "service": 0,
+        "user": 4
+      },
+      {
+        "text": "The burger wasn't tasty at all and it arrived late",
+        "deliverySpeed": 1,
+        "taste": 2,
+        "price": 0,
+        "ambience": 0,
+        "service": 0,
+        "user": 1
+      },
+      {
+        "text": "The food arrived late and it was cold",
+        "deliverySpeed": 1,
+        "taste": 0,
+        "price": 0,
+        "ambience": 0,
+        "service": 0,
+        "user": 1
+      },
+      {
+        "text": "It used to be cheap but now it is expensive",
+        "deliverySpeed": 1,
+        "taste": 0,
+        "price": 1,
+        "ambience": 0,
+        "service": 0,
+        "user": 2
+      },
+      {
+        "text": "The inside of the restaurant was luxirious I liked it",
+        "deliverySpeed": 0,
+        "taste": 0,
+        "price": 0,
+        "ambience": 5,
+        "service": 5,
+        "user": 4
+      }
+    ]
+  },
+  {
+    "name": "McDonalds",
+    "url": "mcdonalds",
+    "averageRatings": {
+      "deliverySpeed": 1,
+      "taste": 5,
+      "price": 2,
+      "ambience": 5,
+      "service": 5,
+      "user": 4
+    },
+    "reviews": [
+      {
+        "text": "I love this place! The food is great and the service is amazing!",
+        "deliverySpeed": 0,
+        "taste": 5,
+        "price": 0,
+        "ambience": 0,
+        "service": 5,
+        "user": 3
+      },
+      {
+        "text": "The price is too much for the burger I recieved",
+        "deliverySpeed": 0,
+        "taste": 0,
+        "price": 2,
+        "ambience": 0,
+        "service": 0,
+        "user": 2
+      },
+      {
+        "text": "The fries were crispy, the burger was delicious and the service was good",
+        "deliverySpeed": 0,
+        "taste": 5,
+        "price": 0,
+        "ambience": 0,
+        "service": 4,
+        "user": 4
+      },
+      {
+        "text": "Everything was delicious thank you",
+        "deliverySpeed": 0,
+        "taste": 5,
+        "price": 0,
+        "ambience": 0,
+        "service": 0,
+        "user": 5
+      },
+      {
+        "text": "The inside of the restaurant was luxirious I liked it",
+        "deliverySpeed": 0,
+        "taste": 0,
+        "price": 0,
+        "ambience": 5,
+        "service": 0,
+        "user": 4
+      },
+      {
+        "text": "The food arrived late and it was cold",
+        "deliverySpeed": 1,
+        "taste": 0,
+        "price": 0,
+        "ambience": 0,
+        "service": 0,
+        "user": 1
+      }
+    ]
+  },
+  {
+    "name": "KFC",
+    "url": "kfc",
+    "averageRatings": {
+      "deliverySpeed": 3,
+      "taste": 4,
+      "price": 2,
+      "ambience": 5,
+      "service": 5,
+      "user": 3
+    },
+    "reviews": [
+      {
+        "text": "I love this place! The food is great and the service is amazing!",
+        "deliverySpeed": 0,
+        "taste": 5,
+        "price": 0,
+        "ambience": 0,
+        "service": 5,
+        "user": 3
+      },
+      {
+        "text": "Half of what I ordered didn't arrive and the food was cold",
+        "deliverySpeed": 1,
+        "taste": 2,
+        "price": 0,
+        "ambience": 0,
+        "service": 0,
+        "user": 1
+      },
+      {
+        "text": "It was extremely delicious and everything was perfect",
+        "deliverySpeed": 0,
+        "taste": 5,
+        "price": 0,
+        "ambience": 0,
+        "service": 0,
+        "user": 5
+      },
+      {
+        "text": "It wasn't delicious but it arrived fast",
+        "deliverySpeed": 5,
+        "taste": 2,
+        "price": 0,
+        "ambience": 0,
+        "service": 0,
+        "user": 3
+      },
+      {
+        "text": "The inside of the restaurant was luxirious I liked it",
+        "deliverySpeed": 0,
+        "taste": 0,
+        "price": 0,
+        "ambience": 5,
+        "service": 0,
+        "user": 4
+      },
+      {
+        "text": "The price is too much for the food I recieved",
+        "deliverySpeed": 0,
+        "taste": 0,
+        "price": 2,
+        "ambience": 0,
+        "service": 0,
+        "user": 2
+      }
+    ]
+  },
+  {
+    "name": "Subway",
+    "url": "subway",
+    "averageRatings": {
+      "deliverySpeed": 5,
+      "taste": 4,
+      "price": 2,
+      "ambience": 1,
+      "service": 4,
+      "user": 3
+    },
+    "reviews": [
+      {
+        "text": "I love this place! The food is great and the service is amazing!",
+        "deliverySpeed": 0,
+        "taste": 5,
+        "price": 0,
+        "ambience": 0,
+        "service": 5,
+        "user": 3
+      },
+      {
+        "text": "It was beyond what I expected the sevice was really good",
+        "deliverySpeed": 0,
+        "taste": 5,
+        "price": 0,
+        "ambience": 0,
+        "service": 5,
+        "user": 5
+      },
+      {
+        "text": "The bread was cold and hard and there wasn't any sauce in it",
+        "deliverySpeed": 0,
+        "taste": 2,
+        "price": 0,
+        "ambience": 0,
+        "service": 0,
+        "user": 3
+      },
+      {
+        "text": "The fries were cold and soft and I can't say the sandwich was delicious",
+        "deliverySpeed": 0,
+        "taste": 2,
+        "price": 0,
+        "ambience": 0,
+        "service": 0,
+        "user": 2
+      },
+      {
+        "text": "It arrived fast and eveything was good",
+        "deliverySpeed": 5,
+        "taste": 4,
+        "price": 0,
+        "ambience": 0,
+        "service": 0,
+        "user": 4
+      },
+      {
+        "text": "The restaurant was dirty I didn't like it",
+        "deliverySpeed": 0,
+        "taste": 0,
+        "price": 0,
+        "ambience": 1,
+        "service": 1,
+        "user": 1
+      },
+      {
+        "text": "The price is too much for the food I recieved",
+        "deliverySpeed": 0,
+        "taste": 0,
+        "price": 2,
+        "ambience": 0,
+        "service": 0,
+        "user": 2
+      }
+    ]
+  },
+  {
+    "name": "Pizza Hut",
+    "url": "pizzahut",
+    "averageRatings": {
+      "deliverySpeed": 4,
+      "taste": 5,
+      "price": 5,
+      "ambience": 1,
+      "service": 4,
+      "user": 4
+    },
+    "reviews": [
+      {
+        "text": "I love this place! The food is great and the service is amazing!",
+        "deliverySpeed": 0,
+        "taste": 5,
+        "price": 0,
+        "ambience": 0,
+        "service": 5,
+        "user": 3
+      },
+      {
+        "text": "It arrived too fast and it was delicious",
+        "deliverySpeed": 5,
+        "taste": 5,
+        "price": 0,
+        "ambience": 0,
+        "service": 0,
+        "user": 5
+      },
+      {
+        "text": "The service was good and the food was delicious",
+        "deliverySpeed": 0,
+        "taste": 5,
+        "price": 0,
+        "ambience": 0,
+        "service": 5,
+        "user": 5
+      },
+      {
+        "text": "It was cheap and delicious but it arrived late",
+        "deliverySpeed": 2,
+        "taste": 5,
+        "price": 5,
+        "ambience": 0,
+        "service": 0,
+        "user": 4
+      },
+      {
+        "text": "The restaurant was dirty I didn't like it",
+        "deliverySpeed": 0,
+        "taste": 0,
+        "price": 0,
+        "ambience": 1,
+        "service": 1,
+        "user": 1
+      }
+    ]
+  }
+]

@@ -1,0 +1,302 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root,
+body,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+}
+
+body {
+  min-height: 950px;
+  padding-bottom: 80px;
+}
+
+.bg {
+  background-image: url("../public/bg.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+#main-nav {
+  background-color: rgb(218, 145, 11);
+  width: 100%;
+  height: 80px;
+  text-align: center;
+}
+
+#main-nav .row {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#main-nav .row .links {
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+#main-nav .row #logo img {
+  margin-left: 20px;
+}
+
+#main-nav .row .links a {
+  font-size: 20px;
+  margin-right: 20px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+#main-nav .row .links a:hover {
+  color: black;
+}
+
+#mid {
+  padding: 30px 0px;
+  width: 100%;
+}
+
+#mid .mid-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.answer {
+  margin-top: 40px;
+  background-color: white;
+  width: 850px;
+  border-radius: 10px;
+  padding: 24px;
+  text-align: center;
+  font-size: 24px;
+  color: black;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.answer h1 {
+  margin-bottom: 12px;
+}
+
+.answer .komment {
+  margin-bottom: 36px;
+}
+
+.answer p {
+  margin-bottom: 6px;
+}
+
+#mid .mid-section #comment {
+  position: relative;
+  margin-top: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+#mid .mid-section #comment .input-box {
+  margin-top: 10px;
+  font-size: 22px;
+  padding: 0px 24px;
+  border: 3px solid rgb(246, 142, 142);
+  border-radius: 40px;
+  height: 70px;
+  width: 850px;
+}
+
+#mid .mid-section #comment .submit {
+  font-size: 30px;
+  position: absolute;
+  top: 30px;
+  right: 25px;
+}
+
+#footer {
+  background-color: rgb(218, 145, 11);
+  height: 80px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+#footer .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+#footer .row p {
+  color: #fff;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.res-title h1 {
+  padding-top: 120px;
+  font-size: 34px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#review h1 {
+  padding-top: 0;
+  margin-top: 25px;
+}
+
+#container,
+#comments {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 60px;
+  padding-bottom: 20px;
+}
+
+#container .card {
+  margin: 15px;
+  background-color: #efefef;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+#container .card:hover {
+  scale: 1.05;
+  cursor: pointer;
+}
+
+#container .card h2,
+#comments .comment-card h2 {
+  text-align: center;
+  font-size: 24px;
+  color: rgb(221, 156, 37);
+  margin-bottom: 10px;
+}
+
+#eval {
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width: 750px;
+  border: 2px solid rgb(246, 142, 142);
+  border-radius: 8px;
+  padding-top: 6px;
+  padding-bottom: 10px;
+  background-color: rgb(255, 241, 241);
+}
+
+#eval .rest-name {
+  margin: auto;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#eval .rest-name h1 {
+  font-size: 34px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 2px 12px;
+  background-color: #f2a900;
+  border-radius: 10px;
+}
+
+#eval h2 {
+  margin-bottom: 2px;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+#eval p {
+  font-size: 18px;
+  text-align: center;
+}
+
+#comments .comment-card {
+  margin: 15px;
+  background-color: #efefef;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  font-size: 20px;
+  max-width: 400px;
+}
+
+#comments .comment-card p:first-child {
+  font-size: 21px;
+  margin-bottom: 10px;
+}
+
+#rec {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  margin: auto;
+  width: 1000px;
+  border: 2px solid rgb(246, 142, 142);
+  border-radius: 8px;
+  background-color: rgb(255, 241, 241);
+  padding: 20px 32px;
+}
+
+#rec h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#rec .rec-title {
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+
+#rec .rec-text {
+  margin-bottom: 0;
+}
+
+.rat-sub {
+  padding: 8px 16px;
+  border-radius: 10px;
+  background-color: #f2a900;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.rat-sub:hover {
+  cursor: pointer;
+  background-color: rgb(246, 142, 142);
+}
+
+.rec-text2 {
+  margin-top: 40px;
+  background-color: white;
+  width: 850px;
+  border-radius: 10px;
+  padding: 20px 32px;
+  text-align: justify;
+  font-size: 17px;
+  color: black;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
